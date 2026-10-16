@@ -75,3 +75,94 @@ YouTube Link: [https://youtu.be/YOUR_UNLISTED_LINK](https://youtu.be/1ftwoNgmMOE
 ---
 
 Submitted as part of PROG6212 - Programming 2B
+
+## Part 2: RESTful API
+
+### Deliverables
+- RESTful API built in C# using ASP.NET Core Web API
+- SQL Server database via Entity Framework Core (Code First)
+- Role-based authentication for Organiser and Participant
+- Unit tests for authentication, events, enrolments, and results
+- GitHub Actions CI/CD pipeline
+
+### Technologies Used
+- .NET 10
+- ASP.NET Core Web API
+- Entity Framework Core
+- SQL Server (LocalDB)
+- xUnit (testing)
+- GitHub Actions (CI/CD)
+
+### Project Structure
+
+PROG6212-RaceDay-POE/
+├── RaceDay.Api/ (API project with controllers, models, DTOs)
+├── RaceDay.Api.Tests/ (Unit tests)
+├── RaceDay.Contracts/ (Shared DTOs)
+└── RaceDay.slnx (Solution file)
+
+
+### How to Run the API
+1. Open the solution in Visual Studio
+2. Set `RaceDay.Api` as the startup project
+3. Press F5 to run
+4. Swagger UI opens in your browser
+
+### API Endpoints
+All endpoints are exposed through Swagger. Navigate to `https://localhost:7078/swagger` while the API is running.
+
+| Category | Endpoints |
+|----------|-----------|
+| Authentication | Register, Login, Logout |
+| Profile | Get Profile, Update Profile |
+| Events | Get All, Get One, Create, Update, Delete |
+| Categories | List, Create, Update, Delete |
+| Enrolments | Create, View Mine, View Event Enrolments, Withdraw |
+| Results | Capture, View Mine, View Event Results |
+
+### Authentication
+- Session-based authentication
+- Passwords hashed using SHA-256
+- Role-based access control via custom filter
+- Two roles: Organiser, Participant
+
+### Unit Testing
+Run tests locally:
+
+### How to Run the API
+1. Open the solution in Visual Studio
+2. Set `RaceDay.Api` as the startup project
+3. Press F5 to run
+4. Swagger UI opens in your browser
+
+### API Endpoints
+All endpoints are exposed through Swagger. Navigate to `https://localhost:7078/swagger` while the API is running.
+
+| Category | Endpoints |
+|----------|-----------|
+| Authentication | Register, Login, Logout |
+| Profile | Get Profile, Update Profile |
+| Events | Get All, Get One, Create, Update, Delete |
+| Categories | List, Create, Update, Delete |
+| Enrolments | Create, View Mine, View Event Enrolments, Withdraw |
+| Results | Capture, View Mine, View Event Results |
+
+### Authentication
+- Session-based authentication
+- Passwords hashed using SHA-256
+- Role-based access control via custom filter
+- Two roles: Organiser, Participant
+
+### Unit Testing
+Run tests locally:
+
+
+All 10 tests should pass. The GitHub Actions workflow runs them automatically on every push.
+
+### CI/CD
+The workflow builds the API and runs all tests on every push to main.
+
+![Green Build Part 2](green-build-part2.png)
+
+### Part 2 Video
+YouTube Link: [https://youtu.be/PART2_LINK](https://youtu.be/PART2_LINK)
