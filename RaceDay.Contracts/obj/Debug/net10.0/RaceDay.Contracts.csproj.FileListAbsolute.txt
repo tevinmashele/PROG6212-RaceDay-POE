@@ -1,0 +1,24 @@
+C:\Users\mbuye\Desktop\IIE ROSEBANK\programming\ICE\RaceDay\RaceDay.Contracts\bin\Debug\net10.0\RaceDay.Contracts.deps.json
+C:\Users\mbuye\Desktop\IIE ROSEBANK\programming\ICE\RaceDay\RaceDay.Contracts\bin\Debug\net10.0\RaceDay.Contracts.dll
+C:\Users\mbuye\Desktop\IIE ROSEBANK\programming\ICE\RaceDay\RaceDay.Contracts\bin\Debug\net10.0\RaceDay.Contracts.pdb
+C:\Users\mbuye\Desktop\IIE ROSEBANK\programming\ICE\RaceDay\RaceDay.Contracts\obj\Debug\net10.0\RaceDay.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mbuye\Desktop\IIE ROSEBANK\programming\ICE\RaceDay\RaceDay.Contracts\obj\Debug\net10.0\RaceDay.Contracts.AssemblyInfoInputs.cache
+C:\Users\mbuye\Desktop\IIE ROSEBANK\programming\ICE\RaceDay\RaceDay.Contracts\obj\Debug\net10.0\RaceDay.Contracts.AssemblyInfo.cs
+C:\Users\mbuye\Desktop\IIE ROSEBANK\programming\ICE\RaceDay\RaceDay.Contracts\obj\Debug\net10.0\RaceDay.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\mbuye\Desktop\IIE ROSEBANK\programming\ICE\RaceDay\RaceDay.Contracts\obj\Debug\net10.0\RaceDay.Contracts.dll
+C:\Users\mbuye\Desktop\IIE ROSEBANK\programming\ICE\RaceDay\RaceDay.Contracts\obj\Debug\net10.0\refint\RaceDay.Contracts.dll
+C:\Users\mbuye\Desktop\IIE ROSEBANK\programming\ICE\RaceDay\RaceDay.Contracts\obj\Debug\net10.0\RaceDay.Contracts.pdb
+C:\Users\mbuye\Desktop\IIE ROSEBANK\programming\ICE\RaceDay\RaceDay.Contracts\obj\Debug\net10.0\ref\RaceDay.Contracts.dll
+C:\Users\mbuye\Documents\GitHub\PROG6212-RaceDay-POE\RaceDay.Contracts\bin\Debug\net10.0\RaceDay.Contracts.deps.json
+C:\Users\mbuye\Documents\GitHub\PROG6212-RaceDay-POE\RaceDay.Contracts\bin\Debug\net10.0\RaceDay.Contracts.dll
+C:\Users\mbuye\Documents\GitHub\PROG6212-RaceDay-POE\RaceDay.Contracts\bin\Debug\net10.0\RaceDay.Contracts.pdb
+C:\Users\mbuye\Documents\GitHub\PROG6212-RaceDay-POE\RaceDay.Contracts\obj\Debug\net10.0\RaceDay.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mbuye\Documents\GitHub\PROG6212-RaceDay-POE\RaceDay.Contracts\obj\Debug\net10.0\RaceDay.Contracts.AssemblyInfoInputs.cache
+C:\Users\mbuye\Documents\GitHub\PROG6212-RaceDay-POE\RaceDay.Contracts\obj\Debug\net10.0\RaceDay.Contracts.AssemblyInfo.cs
+C:\Users\mbuye\Documents\GitHub\PROG6212-RaceDay-POE\RaceDay.Contracts\obj\Debug\net10.0\RaceDay.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\mbuye\Documents\GitHub\PROG6212-RaceDay-POE\RaceDay.Contracts\obj\Debug\net10.0\RaceDay.Contracts.sourcelink.json
+C:\Users\mbuye\Documents\GitHub\PROG6212-RaceDay-POE\RaceDay.Contracts\obj\Debug\net10.0\RaceDay.Contracts.dll
+C:\Users\mbuye\Documents\GitHub\PROG6212-RaceDay-POE\RaceDay.Contracts\obj\Debug\net10.0\refint\RaceDay.Contracts.dll
+C:\Users\mbuye\Documents\GitHub\PROG6212-RaceDay-POE\RaceDay.Contracts\obj\Debug\net10.0\RaceDay.Contracts.pdb
+C:\Users\mbuye\Documents\GitHub\PROG6212-RaceDay-POE\RaceDay.Contracts\obj\Debug\net10.0\ref\RaceDay.Contracts.dll
+C:\Users\mbuye\Documents\GitHub\PROG6212-RaceDay-POE\RaceDay.Contracts\obj\Debug\net10.0\RaceDay..C9A4A03B.Up2Date
