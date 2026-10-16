@@ -165,4 +165,4 @@ The workflow builds the API and runs all tests on every push to main.
 ![Green Build Part 2](green-build-part2.png)
 
 ### Part 2 Video
-YouTube Link: [https://youtu.be/PART2_LINK](https://youtu.be/PART2_LINK)
+YouTube Link:https://youtu.be/kl9jVamLWy0?si=7BrBXFR_tFKZ02Qs
