@@ -75,3 +75,92 @@ YouTube Link: [https://youtu.be/YOUR_UNLISTED_LINK](https://youtu.be/1ftwoNgmMOE
 ---
 
 Submitted as part of PROG6212 - Programming 2B
+
+Part 2: RESTful API
+Deliverables
+RESTful API built in C# using ASP.NET Core Web API.
+
+SQL Server database via Entity Framework Core (Code First).
+
+Role-based session authentication for Organiser and Participant.
+
+Unit tests for authentication, events, enrolments, and results.
+
+GitHub Actions CI/CD pipeline.
+
+Technologies Used
+.NET 10
+
+ASP.NET Core Web API
+
+Entity Framework Core
+
+SQL Server (LocalDB)
+
+xUnit (testing)
+
+GitHub Actions (CI/CD)
+
+API Setup Instructions
+Open the solution in Visual Studio.
+
+Update the database connection string in RaceDay.Api/appsettings.json if necessary.
+
+Set RaceDay.Api as the startup project and press F5.
+
+The Swagger UI will open at https://localhost:7078/swagger.
+
+Unit Testing
+Run tests locally:
+
+bash
+dotnet test RaceDay.slnx
+All 10 tests should pass. The GitHub Actions workflow runs them automatically on every push.
+
+CI/CD
+The workflow builds the API and runs all tests on every push to main.
+
+https://green-build-part2.png/
+
+Part 2 Video Demonstration
+YouTube Link: https://youtu.be/PART2_LINK
+
+Part 3: MVC Web Application, Azure Blob Storage & Docker
+Deliverables
+ASP.NET Core MVC Web Application communicating with the Part 2 API.
+
+Session-based authentication and role-specific interfaces.
+
+Azure Blob Storage integration (using local Azurite emulator).
+
+Full Docker containerisation of the MVC application.
+
+Consistent UI design using Bootstrap.
+
+MVC Setup Instructions
+Open the solution in Visual Studio.
+
+Ensure both RaceDay.Api and RaceDay.Mvc are set to start.
+
+Start the Azurite emulator (via Command Prompt: azurite --silent or the Visual Studio extension) to enable image uploads.
+
+Press F5 to run. The MVC app will open in your browser.
+
+Docker Setup
+The MVC application is fully containerised.
+
+1. Build the Docker Image:
+Open a terminal in the solution root folder and run:
+
+bash
+docker build -f RaceDay.Mvc/Dockerfile -t raceday-mvc:part3 .
+2. Run the Container:
+(Note: Ensure the RaceDay.Api is running locally on http://localhost:5000 for the container to connect).
+
+bash
+docker run -d -p 8080:8080 --name raceday-mvc -e ApiSettings__BaseUrl=http://host.docker.internal:5000/ raceday-mvc:part3
+3. Access the application:
+Open http://localhost:8080 in your browser.
+
+Part 3 Video Demonstration
+YouTube Link: https://youtu.be/YOUR_PART3_LINK
