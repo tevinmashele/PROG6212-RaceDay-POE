@@ -164,3 +164,27 @@ Open http://localhost:8080 in your browser.
 
 Part 3 Video Demonstration
 YouTube Link: https://youtu.be/YOUR_PART3_LINK
+
+
+Continuous Integration and Deployment
+The GitHub Actions workflows validate the repository and build the solution on every push.
+
+Part 1: Validates documentation structure.
+
+Part 2: Builds the API and runs all unit tests.
+
+Part 3: Builds the MVC project (and Docker if configured).
+
+https://green-build.png/
+https://green-build-part2.png/
+
+References
+PROG6212 PoE Full Specification Document
+
+PROG6212 Part 1 Assessment Breakdown
+
+Microsoft ASP.NET Core Documentation
+
+Entity Framework Core Documentation
+
+Docker Documentation
