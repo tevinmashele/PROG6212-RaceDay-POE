@@ -432,10 +432,13 @@ C:\Users\mbuye\Documents\GitHub\PROG6212-RaceDay-POE\RaceDay.Api\obj\Debug\net10
 C:\Users\mbuye\Documents\GitHub\PROG6212-RaceDay-POE\RaceDay.Api\obj\Debug\net10.0\staticwebassets.development.json
 C:\Users\mbuye\Documents\GitHub\PROG6212-RaceDay-POE\RaceDay.Api\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Users\mbuye\Documents\GitHub\PROG6212-RaceDay-POE\RaceDay.Api\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\mbuye\Documents\GitHub\PROG6212-RaceDay-POE\RaceDay.Api\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\mbuye\Documents\GitHub\PROG6212-RaceDay-POE\RaceDay.Api\obj\Debug\net10.0\RaceDay..67FF5970.Up2Date
 C:\Users\mbuye\Documents\GitHub\PROG6212-RaceDay-POE\RaceDay.Api\obj\Debug\net10.0\RaceDay.Api.dll
 C:\Users\mbuye\Documents\GitHub\PROG6212-RaceDay-POE\RaceDay.Api\obj\Debug\net10.0\refint\RaceDay.Api.dll
 C:\Users\mbuye\Documents\GitHub\PROG6212-RaceDay-POE\RaceDay.Api\obj\Debug\net10.0\RaceDay.Api.pdb
 C:\Users\mbuye\Documents\GitHub\PROG6212-RaceDay-POE\RaceDay.Api\obj\Debug\net10.0\RaceDay.Api.genruntimeconfig.cache
 C:\Users\mbuye\Documents\GitHub\PROG6212-RaceDay-POE\RaceDay.Api\obj\Debug\net10.0\ref\RaceDay.Api.dll
+C:\Users\mbuye\Documents\GitHub\PROG6212-RaceDay-POE\RaceDay.Api\bin\Debug\net10.0\Apache.Arrow.dll
+C:\Users\mbuye\Documents\GitHub\PROG6212-RaceDay-POE\RaceDay.Api\bin\Debug\net10.0\Azure.Storage.Blobs.dll
+C:\Users\mbuye\Documents\GitHub\PROG6212-RaceDay-POE\RaceDay.Api\bin\Debug\net10.0\Azure.Storage.Common.dll
+C:\Users\mbuye\Documents\GitHub\PROG6212-RaceDay-POE\RaceDay.Api\bin\Debug\net10.0\System.IO.Hashing.dll

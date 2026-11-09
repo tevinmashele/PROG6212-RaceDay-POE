@@ -1,0 +1,42 @@
+﻿@model IEnumerable<RaceDay.Contracts.EventDto>
+
+@{
+    ViewData["Title"] = "Browse Events";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">Upcoming Events</h2>
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">@TempData["Error"]</div>
+    }
+
+    @if (Model == null || !Model.Any())
+    {
+        <div class="alert alert-info">No events available at the moment.</div>
+    }
+    else
+    {
+        <div class="row">
+            @foreach (var ev in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">@ev.Name</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">@ev.EventDate.ToString("dd MMM yyyy")</h6>
+                            <p class="card-text">@ev.Description</p>
+                            <ul class="list-group list-group-flush mb-3">
+                                <li class="list-group-item"><strong>Location:</strong> @ev.Location</li>
+                                <li class="list-group-item"><strong>Distance:</strong> @ev.DistanceKm km</li>
+                                <li class="list-group-item"><strong>Type:</strong> @ev.EventType</li>
+                            </ul>
+                            <a asp-controller="Participant" asp-action="EnterEvent" asp-route-id="@ev.EventId" class="btn btn-primary w-100">Enter Event</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>

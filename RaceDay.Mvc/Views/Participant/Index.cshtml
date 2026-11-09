@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Participant Home";
+}
+
+<div class="container mt-4">
+    <div class="p-5 mb-4 bg-light rounded-3 border">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">Welcome to RaceDay</h1>
+            <p class="col-md-8 fs-4">Hello, @Context.Session.GetString("DisplayName")! Ready for your next race?</p>
+            <a asp-controller="Participant" asp-action="BrowseEvents" class="btn btn-primary btn-lg">Browse Upcoming Events</a>
+        </div>
+    </div>
+</div>

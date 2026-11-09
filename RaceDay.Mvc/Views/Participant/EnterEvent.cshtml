@@ -1,0 +1,39 @@
+﻿@model IEnumerable<RaceDay.Contracts.CategoryDto>
+
+@{
+    ViewData["Title"] = "Enter Event";
+    var ev = ViewBag.Event as RaceDay.Contracts.EventDto;
+}
+
+<div class="container mt-4">
+    <h2>Enter Event: @ev?.Name</h2>
+    <p class="text-muted">@ev?.Location | @ev?.EventDate.ToString("dd MMM yyyy")</p>
+    <hr />
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">@TempData["Error"]</div>
+    }
+
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-action="EnterEvent" method="post">
+                <input type="hidden" name="eventId" value="@ev?.EventId" />
+
+                <div class="mb-3">
+                    <label class="form-label">Select a Category</label>
+                    <select name="categoryId" class="form-select" required>
+                        <option value="">-- Select Category --</option>
+                        @foreach (var cat in Model)
+                        {
+                            <option value="@cat.CategoryId">@cat.Name - R@cat.EntryFee</option>
+                        }
+                    </select>
+                </div>
+
+                <button type="submit" class="btn btn-success">Confirm Enrolment</button>
+                <a asp-action="BrowseEvents" class="btn btn-secondary">Cancel</a>
+            </form>
+        </div>
+    </div>
+</div>

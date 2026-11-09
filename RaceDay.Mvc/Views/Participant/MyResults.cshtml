@@ -1,0 +1,36 @@
+﻿@model IEnumerable<RaceDay.Contracts.ResultDto>
+@{
+    ViewData["Title"] = "My Results";
+}
+
+<div class="container mt-4">
+    <h2>My Race Results</h2>
+    <hr />
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info">You don't have any results yet. Complete an event to see your times!</div>
+    }
+    else
+    {
+        <table class="table table-striped table-hover shadow-sm">
+            <thead class="table-dark">
+                <tr>
+                    <th>Event Name</th>
+                    <th>Finish Time</th>
+                    <th>Position</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var res in Model)
+                {
+                    <tr>
+                        <td>@res.EventName</td>
+                        <td>@res.FinishTime</td>
+                        <td>@res.FinishPosition</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
